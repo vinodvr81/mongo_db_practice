@@ -10,3 +10,5 @@ The command would return a cursor to the documents that match the filter, includ
 
 
 [03.]  03_db_.txt      --> 3. Write a MongoDB query to display the fields restaurant_id, name, borough and cuisine, but exclude the field _id for all the documents in the collection restaurant.
+
+[04.]  04-db_retrieve_nested --> 4. Write a MongoDB query to display the fields restaurant_id, name, borough and zip code, but exclude the field _id for all the documents in the collection restaurant.
