@@ -19,3 +19,5 @@ The command would return a cursor to the documents that match the filter, includ
 [05.]  05-db_retrieve_bronx.txt  --> 5. Write a MongoDB query to display all the restaurant which is in the borough Bronx.
 
 [05a.] 05a-db_retrieve_street_southern_boulevard.txt --> 5a. Write a MongoDB query to display all the restaurant which is from the street Southern Boulervard.
+
+[06.] 06-db_limit2_street_southern_boulevard --> 6. Write a MongoDB query to display the first 2 restaurant which is in from the street Southern Boulervard.
