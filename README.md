@@ -1,3 +1,6 @@
+Exercises from W3Resources
+
+
 [01.]  01_db_find.txt  --> 1. Write a MongoDB query to display all the documents in the collection restaurants.
 
 [02.]  02-db_.txt      --> 2. Write a MongoDB query to display the fields restaurant_id, name, borough and cuisine for all the documents in the collection restaurant.
@@ -11,4 +14,6 @@ The command would return a cursor to the documents that match the filter, includ
 
 [03.]  03_db_.txt      --> 3. Write a MongoDB query to display the fields restaurant_id, name, borough and cuisine, but exclude the field _id for all the documents in the collection restaurant.
 
-[04.]  04-db_retrieve_nested --> 4. Write a MongoDB query to display the fields restaurant_id, name, borough and zip code, but exclude the field _id for all the documents in the collection restaurant.
+[04.]  04-db_retrieve_nested.txt --> 4. Write a MongoDB query to display the fields restaurant_id, name, borough and zip code, but exclude the field _id for all the documents in the collection restaurant.
+
+[05.]  05-db_retrieve_bronx.txt  --> 5. Write a MongoDB query to display all the restaurant which is in the borough Bronx.
