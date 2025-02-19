@@ -17,3 +17,5 @@ The command would return a cursor to the documents that match the filter, includ
 [04.]  04-db_retrieve_nested.txt --> 4. Write a MongoDB query to display the fields restaurant_id, name, borough and zip code, but exclude the field _id for all the documents in the collection restaurant.
 
 [05.]  05-db_retrieve_bronx.txt  --> 5. Write a MongoDB query to display all the restaurant which is in the borough Bronx.
+
+[05a.] 05a-db_retrieve_street_southern_boulevard.txt --> 5a. Write a MongoDB query to display all the restaurant which is from the street Southern Boulervard.
