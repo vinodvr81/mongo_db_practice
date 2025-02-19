@@ -1,0 +1,63 @@
+restaurant> db.restaurant.find({"address.street": "Southern Boulevard"}).limit(2);
+[
+  {
+    _id: ObjectId('67b444b651f1f25cc62b3f97'),
+    address: {
+      building: '2300',
+      coord: [ -73.8786113, 40.8502883 ],
+      street: 'Southern Boulevard',
+      zipcode: '10460'
+    },
+    borough: 'Bronx',
+    cuisine: 'American ',
+    grades: [
+      {
+        date: ISODate('2014-05-28T00:00:00.000Z'),
+        grade: 'A',
+        score: 11
+      },
+      {
+        date: ISODate('2013-06-19T00:00:00.000Z'),
+        grade: 'A',
+        score: 4
+      },
+      {
+        date: ISODate('2012-06-15T00:00:00.000Z'),
+        grade: 'A',
+        score: 3
+      }
+    ],
+    name: 'Wild Asia',
+    restaurant_id: '40357217'
+  },
+  {
+    _id: ObjectId('67b444b651f1f25cc62b4064'),
+    address: {
+      building: '2300',
+      coord: [ -73.8786113, 40.8502883 ],
+      street: 'Southern Boulevard',
+      zipcode: '10460'
+    },
+    borough: 'Bronx',
+    cuisine: 'Café/Coffee/Tea',
+    grades: [
+      {
+        date: ISODate('2014-05-21T00:00:00.000Z'),
+        grade: 'A',
+        score: 8
+      },
+      {
+        date: ISODate('2013-05-29T00:00:00.000Z'),
+        grade: 'A',
+        score: 9
+      },
+      {
+        date: ISODate('2012-06-18T00:00:00.000Z'),
+        grade: 'A',
+        score: 8
+      }
+    ],
+    name: 'Terrace Cafe',
+    restaurant_id: '40368018'
+  }
+]
